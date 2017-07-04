@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+	font-family: Slack-Lato, sans-serif;
+	margin:10px 10px;
+}
+body {
+	margin: 0 auto;
+    padding: 0;
+    font-size: 35x;
+    position: relative;
+    min-height: 100%;
+    background-color: lightgray;
+}
+nav{
+	display: inline;
+}
+ .slack{
+	font-size: 25px;
+	color:white;
+	background: black;
+}
+.logo{
+	font-size: 25px;
+	color:black;
+	text-decoration: none;
+}
+nav ul li{
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	position: relative;
+}
+nav ul li a{
+	font-size: 15px;
+	color:#242424;
+	text-decoration: unset;
+	float:right;
+}
+.clearfix{
+	clear: both;
+}
+nav ul li a:hover{
+	opacity: 0.8;
+	background-color: darkgray;
+}
+.tim{
+	border-style: solid;
+	border-width: medium;
+	border-color: black;
+}
+.tim:hover{
+	opacity: 0.8;
+	background-color: lightgray;
+}
+
+
+.main-content{
+	display: flex;
+    align-items: flex-start;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right:0;
+    margin-bottom: 0;
+    width: 100%;
+    display: inline-block;
+}
+.main-content p{
+	font-size: 20px;
+}
+.sign-in{
+	font-size:14px;
+	color: #242424;
+	text-decoration: unset;
+}
+h1{
+	font-size: 90px;
+}
+section h1 span{
+	color:red;
+}
+section p span{
+	color:red;
+}
+form{
+	font-size: 18px;
+}
+.submit{
+	color: white;
+	background-color: green;
+}
+
+.content {
+	list-style: none;
+	background-color: white;
+	width:1600x;
+	height:500PX;
+	margin:0;
+	text-align: center;
+}
+.content ul{
+	list-style: none;
+	display: inline-block;
+	font-size: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.content ul a{
+	color:#242424;
+	text-decoration: none;
+	display: inline-block;
+}
+.using-slack{
+	color:orange;
+}
+.slack-heart{
+	color:red;
+	background-color: white;
+}
+.legal{
+	color:green;
+}
+.handy-links{
+	color:blue;
+}
+img{
+	float:right;
+}
+.clearfix{
+	clear: both;
+}
+footer{
+	display: inline;
+}
+footer .slack{
+	float:left;
+	background-color: gray;
+}
+.clearfix{
+	clear:both;
+}
+footer .kontakt{
+	list-style: none;
+	text-decoration: none;
+	color:#242424;
+	float:right;
+}
+.clearfix{
+	clear:both;
+}
